@@ -1,3 +1,9 @@
+# Rails ESBuild React
+
+* rails 8に、reactを導入する。
+* esbuildを使用して、assetsをビルドする。
+* imageをcompileする、その際に、imageのハッシュ値を含めるが、そのハッシュつきイメージをreactとerb (image_tag)両方で使えるようにする
+
 ```bash
 # Install Ruby
 rbenv install 3.4.2

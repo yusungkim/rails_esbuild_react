@@ -3,4 +3,14 @@
 <h1>Statics#show</h1>
 <p>Find me in app/views/statics/show.html.erb</p>
 
-<div id="react-root"></div>
+<div class="flex gap-4 p-4">
+  <section class="w-1/2">
+    <h2 class="text-2xl font-bold">Rendered by erb</h2>
+    <%= image_tag "statics/forest.png", alt: "Forest" %>
+  </section>
+
+  <section class="w-1/2">
+    <h2 class="text-2xl font-bold">Rendered by react</h2>
+    <div id="react-root"></div>
+  </section>
+</div>

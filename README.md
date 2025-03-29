@@ -7,7 +7,7 @@ rbenv global 3.4.2
 gem install rails
 
 # Create a new Rails app
-rails new -j esbuild -c tailwind esbuild-react
+rails new --javascript esbuild --css tailwind esbuild-react
 
 bin/dev
 ```
